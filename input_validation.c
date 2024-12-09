@@ -1,9 +1,9 @@
-void validate_input_count(int argc) {
-    if(argc < 2) {
-        error("Invalid no of options given!\n");
-    }
+#include "calculator.h"
+#include <string.h>
 
-    if(argc % 2 == 0) {
+void validate_input_count(int argc) {
+    
+    if(argc < 2) {
         error("Invalid no of options given!\n");
     }
 
